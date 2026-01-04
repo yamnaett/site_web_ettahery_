@@ -5,26 +5,9 @@ const About = () => {
     return (
         <section id="about" className="py-20 bg-gray-50 overflow-hidden">
             <div className="container mx-auto px-4">
-                <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
+                <div className="max-w-4xl mx-auto">
 
-                    {/* Image Side */}
-                    <motion.div
-                        initial={{ opacity: 0, x: -50 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.8 }}
-                        className="flex-1 relative"
-                    >
-                        <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
-                            <img
-                                src="https://images.unsplash.com/photo-1629909615184-74f495363b63?auto=format&fit=crop&q=80&w=1000"
-                                alt="Dr. Et-Tahery au travail"
-                                className="w-full h-auto object-cover"
-                            />
-                        </div>
-                        {/* Decorative background element */}
-                        <div className="absolute top-[-2rem] left-[-2rem] w-full h-full border-4 border-primary/20 rounded-2xl z-0 hidden md:block" />
-                    </motion.div>
+
 
                     {/* Content Side */}
                     <motion.div

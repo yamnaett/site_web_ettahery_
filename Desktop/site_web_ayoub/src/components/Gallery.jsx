@@ -2,19 +2,15 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
 import gallery1 from '../assets/gallery/gallery-1.png';
-import gallery2 from '../assets/gallery/gallery-2.png';
+import gallery1 from '../assets/gallery/gallery-1.png';
 import gallery3 from '../assets/gallery/gallery-3.jpg';
 import gallery4 from '../assets/gallery/gallery-4.png';
-import gallery5 from '../assets/gallery/gallery-5.png';
 
 // Using local images for gallery
 const galleryImages = [
     { id: 1, src: gallery1, category: 'Cabinet', type: 'image' },
-    { id: 2, src: gallery2, category: 'Équipement', type: 'image' },
-    { id: 3, src: gallery3, category: 'Cabinet', type: 'image' },
-    { id: 4, src: gallery4, category: 'Sourire', type: 'image' },
-    { id: 5, src: gallery5, category: 'Orthodontie', type: 'image' },
-    { id: 6, src: 'https://assets.pinterest.com/ext/embed.html?id=12384967723967619', category: 'Vidéo', type: 'video' },
+    { id: 2, src: gallery3, category: 'Cabinet', type: 'image' },
+    { id: 3, src: gallery4, category: 'Sourire', type: 'image' },
 ];
 
 const Gallery = () => {

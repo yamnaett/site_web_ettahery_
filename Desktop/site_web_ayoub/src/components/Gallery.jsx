@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
 import gallery1 from '../assets/gallery/gallery-1.png';
-import gallery1 from '../assets/gallery/gallery-1.png';
 import gallery3 from '../assets/gallery/gallery-3.jpg';
 import gallery4 from '../assets/gallery/gallery-4.png';
 

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Calendar } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../assets/logo.png';
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +34,7 @@ const Header = () => {
                 {/* Logo */}
                 <div className="flex items-center gap-2">
                     {/* Placeholder for Logo */}
-                    <img src="/logo.png" alt="Logo" className="h-12 w-12 rounded-full object-cover bg-white shadow-sm" />
+                    <img src={logo} alt="Logo" className="h-12 w-12 rounded-full object-cover bg-white shadow-sm" />
                     <div className={`font-serif text-2xl font-bold ${isScrolled ? 'text-gray-800' : 'text-white'}`}>
                         Centre Dentaire <span className="text-primary">Et-Tahery</span>
                     </div>

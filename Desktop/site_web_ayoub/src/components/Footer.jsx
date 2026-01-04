@@ -1,4 +1,5 @@
 import { Facebook, Instagram, MapPin, Phone, Mail, Clock } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
     return (
@@ -9,7 +10,7 @@ const Footer = () => {
                     {/* Brand & Bio */}
                     <div>
                         <div className="flex items-center gap-2 mb-6">
-                            <img src="/logo.png" alt="Logo" className="h-12 w-12 rounded-full object-cover bg-white" />
+                            <img src={logo} alt="Logo" className="h-12 w-12 rounded-full object-cover bg-white" />
                             <div className="font-serif text-2xl font-bold">
                                 Et-Tahery
                             </div>
